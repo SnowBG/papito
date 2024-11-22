@@ -29,7 +29,7 @@ describe('Login', () => {
   })
 })
 
-it.only('Não deve logar com senha inválida', () => {
+it.only('Não deve logar com e-mail inválido', () => {
   cy.visit('https://playground.cyskills.com.br')
 
   cy.contains('h2', 'Faça login').should('be.visible')
