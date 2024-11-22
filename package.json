@@ -1,4 +1,7 @@
 {
   "name": "papito",
-  "packageManager": "yarn@4.5.1"
+  "packageManager": "yarn@4.5.1",
+  "dependencies": {
+    "cypress": "^13.15.2"
+  }
 }
